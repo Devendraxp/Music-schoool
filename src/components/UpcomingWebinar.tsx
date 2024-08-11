@@ -60,7 +60,7 @@ export default function UpcomingWebinar() {
           </p>
         </div>
       </div>
-      <div className="mt-10 px-4">
+      <div className="mt-10 px-8 sm:px-4">
         <HoverEffect items={featuredWebinars.map(webinar => (
           {
             title:webinar.title,

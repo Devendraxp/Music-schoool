@@ -31,7 +31,7 @@ export default function Page() { // Changed 'page' to 'Page'
             Your message has been sent successfully!
           </div>
         )}
-        <form onSubmit={handleSubmit} className="space-y-4 mt-4">
+        <form onSubmit={handleSubmit} className="space-y-4 mt-4 px-4">
           <div>
             <label htmlFor="email" className="sr-only">Email Address</label>
             <input
